@@ -1,0 +1,35 @@
+- understanding units
+    - px : not changes
+    - % : changes
+    - vw, vh : viewport width, viewport height (differ acc to the screen) | changes
+    - vmax, vmin : viewport maximum(vw(when h<w) ; to vh(when h>w)), viewport minimum (vh(when h<w) ; to vw(when h>w)) | changes
+    - em, rem : em(element font size wrt the parent element), rem(element font size wrt the root element)
+
+- layout of website
+    - absolute vs flex? 
+
+
+- flexbox (display: flex; justify-content; align-items: center; flex-wrap:wrap; flex-direction: column;)
+    - display flex
+    - aligning items in x and y axis
+    - flex direction
+    - flex wrap
+
+- CSS Media Queries
+    - min height, max height
+    - min width, max width
+"""
+@media (max-width:1000px) {
+    #son h1{
+        color: royalblue;
+    }
+}
+"""
+
+
+- key points to keep in mind to make website responsive
+1. css flexbox
+2. css units
+3. responsive typography
+4. mobile-first approach
+5. flexible images and media
